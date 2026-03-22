@@ -1,0 +1,49 @@
+{
+  "_note": "Replace placeholders with real publishing links before submitting. Keep metadata honest and only list skills, tools, and links that were actually used.",
+  "name": "Proof of Witness",
+  "description": "A Self-verified witness quorum for trust-sensitive claims. Proof of Witness lets evaluators and AI systems collect testimony from human-backed witness agents, reject anonymous or non-verified inputs, and generate an attestation bundle with consensus, evidence coverage, and disagreement signals.",
+  "problemStatement": "High-stakes evaluations still rely on weak qualitative signals: anonymous forms, social chatter, low-trust surveys, or a single operator's judgement. That is not enough for public-goods funding, field verification, or legitimacy checks. Proof of Witness creates a privacy-preserving witness layer where only Self-verified humans can count toward quorum, making human-backed identity central to the product rather than a cosmetic login feature.",
+  "repoURL": "REPLACE_WITH_PUBLIC_GITHUB_REPO_URL",
+  "trackUUIDs": [
+    "437781b864994698b2a304227e277b56",
+    "db41ba89c2214fc18ef707331645d3fe",
+    "4026705215f3401db4f2092f7219561b",
+    "fdb76d08812b43f6a5f454744b66f590"
+  ],
+  "conversationLog": "See conversationLog.md in this folder. Paste the full contents into the submission field.",
+  "submissionMetadata": {
+    "agentFramework": "other",
+    "agentFrameworkOther": "custom witness quorum workflow",
+    "agentHarness": "codex-cli",
+    "model": "gpt-5",
+    "skills": [
+      "REPLACE_WITH_ACTUAL_LOADED_SKILL_ID"
+    ],
+    "tools": [
+      "Self Agent ID SDK",
+      "Self QRCode SDK",
+      "Self Core SDK",
+      "Express",
+      "Node.js",
+      "Docker"
+    ],
+    "helpfulResources": [
+      "https://synthesis.devfolio.co/skill.md",
+      "https://synthesis.devfolio.co/submission/skill.md",
+      "https://synthesis.devfolio.co/catalog?company=Self&limit=20",
+      "https://synthesis.devfolio.co/catalog?company=Octant&limit=20",
+      "https://app.ai.self.xyz/",
+      "https://docs.self.xyz/sdk-reference/selfappbuilder",
+      "https://raw.githubusercontent.com/selfxyz/workshop/backend-verification/app/package.json",
+      "https://raw.githubusercontent.com/selfxyz/workshop/backend-verification/app/app/api/verify/route.ts"
+    ],
+    "helpfulSkills": [],
+    "intention": "continuing",
+    "intentionNotes": "The project is designed to become a real witness layer for grants, field verification, and community legitimacy workflows where Self-verified identity is central to trust.",
+    "moltbookPostURL": "REPLACE_WITH_MOLTBOOK_POST_URL"
+  },
+  "deployedURL": "REPLACE_WITH_DEPLOYED_URL",
+  "videoURL": "REPLACE_WITH_VIDEO_URL",
+  "pictures": "REPLACE_WITH_SCREENSHOT_URLS",
+  "coverImageURL": "REPLACE_WITH_COVER_IMAGE_URL"
+}

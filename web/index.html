@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Proof of Witness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Self Agent ID Submission</p>
+          <h1>Witnesses that count.</h1>
+          <p class="lede">
+            A privacy-preserving witness quorum for trust-sensitive claims. Only Self-verified
+            human-backed agents can influence the verdict.
+          </p>
+          <div class="hero-tags">
+            <span>Primary: Self</span>
+            <span>Secondary: Octant</span>
+            <span>Distinct lane: trust layer</span>
+          </div>
+        </div>
+        <div class="hero-card">
+          <p class="label">Current Claim</p>
+          <h2 id="claim-title"></h2>
+          <p id="claim-question" class="question"></p>
+          <div class="stats">
+            <div>
+              <span class="kicker">Recommendation</span>
+              <strong id="recommendation"></strong>
+            </div>
+            <div>
+              <span class="kicker">Consensus</span>
+              <strong id="consensus"></strong>
+            </div>
+            <div>
+              <span class="kicker">Evidence</span>
+              <strong id="evidence"></strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="panel">
+          <p class="label">Identity Rules</p>
+          <ul id="identity-rules" class="list"></ul>
+        </article>
+
+        <article class="panel">
+          <p class="label">Quorum Status</p>
+          <div id="quorum-card" class="quorum-card"></div>
+        </article>
+
+        <article class="panel wide">
+          <p class="label">Accepted Witnesses</p>
+          <div id="witnesses" class="witness-grid"></div>
+        </article>
+
+        <article class="panel">
+          <p class="label">Divergences</p>
+          <ul id="divergences" class="list"></ul>
+        </article>
+
+        <article class="panel">
+          <p class="label">Follow-Up Questions</p>
+          <ul id="next-questions" class="list"></ul>
+        </article>
+      </section>
+    </main>
+
+    <script src="./sample-bundle.js"></script>
+    <script src="./app.js"></script>
+  </body>
+  </html>

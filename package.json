@@ -1,0 +1,19 @@
+{
+  "name": "proof-of-witness",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Self-verified witness quorum for trust-sensitive claims and public-goods evaluation",
+  "scripts": {
+    "demo": "node src/demo.mjs",
+    "server": "node src/index.mjs",
+    "check": "node --check src/index.mjs && node --check src/demo.mjs && node --check src/core/utils.mjs && node --check src/core/schemas.mjs && node --check src/core/quorum.mjs && node --check src/core/engine.mjs && node --check src/self/agent-verifier.mjs && node --check src/self/app-config.mjs && node --check src/server/app.mjs"
+  },
+  "dependencies": {
+    "@selfxyz/core": "^1.1.0-beta.7",
+    "@selfxyz/qrcode": "^1.0.15",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "zod": "^3.24.2"
+  }
+}

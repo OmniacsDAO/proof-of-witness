@@ -1,0 +1,124 @@
+{
+  "claimId": "pow-56f1d4911c",
+  "createdAt": "2026-03-17T11:30:00.000Z",
+  "claim": {
+    "title": "Solar Classroom DAO Nairobi delivery review",
+    "category": "public-goods-evaluation",
+    "requestedBy": "Octant evaluation pod",
+    "targetProject": "Solar Classroom DAO",
+    "location": "Nairobi, Kenya",
+    "requestedAt": "2026-03-17T11:00:00Z",
+    "question": "Did Solar Classroom DAO run six community workshops and deliver roughly 180 refurbished devices across two schools in Nairobi during February 2026?",
+    "context": "The evaluation team needs a human-backed legitimacy signal before final scoring and wants any disagreement surfaced rather than buried.",
+    "minimumWitnesses": 3,
+    "disclosures": {
+      "minimumAge": 18,
+      "ofac": true,
+      "nationality": true
+    },
+    "desiredWitnessProfile": [
+      "local educator",
+      "volunteer coordinator",
+      "school operations partner",
+      "community witness"
+    ],
+    "evaluationGoals": [
+      "verify workshops happened",
+      "estimate delivery count",
+      "surface discrepancies worth follow-up"
+    ]
+  },
+  "identityRequirements": {
+    "provider": "Self Agent ID",
+    "minimumAge": 18,
+    "ofac": true,
+    "nationalityDisclosure": true
+  },
+  "quorum": {
+    "requiredWitnesses": 3,
+    "acceptedWitnesses": 4,
+    "rejectedWitnesses": 1,
+    "quorumReached": true
+  },
+  "consensus": {
+    "verdict": "support",
+    "consensusRatio": 0.75,
+    "weightedConfidence": 0.754
+  },
+  "evidenceCoverage": 0.75,
+  "recommendation": {
+    "outcome": "provisionally-verified",
+    "note": "The claim is supported by a Self-verified witness quorum with usable evidence coverage."
+  },
+  "summary": "The witness pool currently leans support with a consensus ratio of 0.75.",
+  "divergences": [
+    {
+      "key": "devices",
+      "values": [
+        "176",
+        "180",
+        "160",
+        "unknown"
+      ]
+    },
+    {
+      "key": "school-b",
+      "values": [
+        "delivered",
+        "late"
+      ]
+    }
+  ],
+  "nextQuestions": [
+    "Resolve divergence on Devices: 176, 180, 160, unknown.",
+    "Resolve divergence on School B: delivered, late."
+  ],
+  "acceptedWitnesses": [
+    {
+      "witnessAlias": "witness-ke-1c2a",
+      "role": "local educator",
+      "region": "Nairobi",
+      "verdict": "support",
+      "confidence": 0.92,
+      "nationality": "KEN",
+      "evidenceCount": 2,
+      "statement": "I attended four of the six workshops directly and saw the final delivery batch arrive. My estimate is roughly 176 devices across both schools."
+    },
+    {
+      "witnessAlias": "witness-ke-7d41",
+      "role": "volunteer coordinator",
+      "region": "Nairobi",
+      "verdict": "support",
+      "confidence": 0.88,
+      "nationality": "KEN",
+      "evidenceCount": 1,
+      "statement": "The project definitely ran six workshops. Our logistics sheet recorded 180 devices earmarked for the two schools, though some were delivered in separate batches."
+    },
+    {
+      "witnessAlias": "witness-ke-5f90",
+      "role": "school operations partner",
+      "region": "Nairobi",
+      "verdict": "partial",
+      "confidence": 0.74,
+      "nationality": "KEN",
+      "evidenceCount": 1,
+      "statement": "The workshops happened, but the second school received the last equipment later than the public post suggested. I would put the count closer to 160 at the time of the main announcement."
+    },
+    {
+      "witnessAlias": "witness-ke-22ab",
+      "role": "community witness",
+      "region": "Nairobi",
+      "verdict": "support",
+      "confidence": 0.81,
+      "nationality": "KEN",
+      "evidenceCount": 0,
+      "statement": "I attended the final community showcase and saw multiple device handoffs. I cannot verify the exact count, but the program clearly happened and both schools were involved."
+    }
+  ],
+  "rejectedWitnesses": [
+    {
+      "witnessAlias": "witness-unknown-7788",
+      "reason": "missing Self verification"
+    }
+  ]
+}

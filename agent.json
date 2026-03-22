@@ -1,0 +1,72 @@
+{
+  "$schema": "agent-manifest-v1",
+  "name": "Proof of Witness",
+  "description": "Self-verified witness quorum for trust-sensitive claims. Collects testimony from human-backed witness agents and turns it into an attestation bundle with consensus, disagreement, and evidence coverage.",
+  "version": "1.0.0",
+  "operator": {
+    "name": "Omniacs DAO",
+    "url": "https://omniacsdao.xyz",
+    "wallet": "0x_OPERATOR_WALLET_ADDRESS",
+    "_note_wallet": "Placeholder only. Replace with the actual operator wallet at deploy time."
+  },
+  "tracks": [
+    {
+      "uuid": "437781b864994698b2a304227e277b56",
+      "name": "Best Self Agent ID Integration",
+      "priority": "primary"
+    },
+    {
+      "uuid": "db41ba89c2214fc18ef707331645d3fe",
+      "name": "Agents for Public Goods Data Collection for Project Evaluation Track",
+      "priority": "secondary"
+    },
+    {
+      "uuid": "4026705215f3401db4f2092f7219561b",
+      "name": "Agents for Public Goods Data Analysis for Project Evaluation Track",
+      "priority": "secondary"
+    },
+    {
+      "uuid": "fdb76d08812b43f6a5f454744b66f590",
+      "name": "Synthesis Open Track",
+      "priority": "secondary"
+    }
+  ],
+  "runtime": {
+    "framework": "custom witness quorum workflow",
+    "language": "Node.js ESM",
+    "sdk": [
+      "@selfxyz/qrcode",
+      "@selfxyz/core"
+    ]
+  },
+  "identity": {
+    "provider": "Self Agent ID",
+    "load_bearing": true,
+    "privacy_model": "zero-knowledge verification with selective disclosure",
+    "verification_rules": [
+      "minimum age",
+      "OFAC screening"
+    ]
+  },
+  "capabilities": [
+    "claim-intake",
+    "witness-enrollment",
+    "self-verified-testimony",
+    "quorum-analysis",
+    "attestation-bundle-generation",
+    "public-goods-evaluation-dossier"
+  ],
+  "guardrails": {
+    "self_verification_required": true,
+    "minimum_quorum_required": true,
+    "raw_identity_documents_stored": false,
+    "claims_and_evidence_separated": true,
+    "disagreement_preserved": true
+  },
+  "deployment": {
+    "env_example_file": ".env.example",
+    "dockerfile": "Dockerfile",
+    "local_demo": "node src/demo.mjs",
+    "server_entrypoint": "node src/index.mjs"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Solar Classroom DAO Nairobi delivery review",
+  "category": "public-goods-evaluation",
+  "requestedBy": "Octant evaluation pod",
+  "targetProject": "Solar Classroom DAO",
+  "location": "Nairobi, Kenya",
+  "requestedAt": "2026-03-17T11:00:00Z",
+  "question": "Did Solar Classroom DAO run six community workshops and deliver roughly 180 refurbished devices across two schools in Nairobi during February 2026?",
+  "context": "The evaluation team needs a human-backed legitimacy signal before final scoring and wants any disagreement surfaced rather than buried.",
+  "minimumWitnesses": 3,
+  "disclosures": {
+    "minimumAge": 18,
+    "ofac": true,
+    "nationality": true
+  },
+  "desiredWitnessProfile": [
+    "local educator",
+    "volunteer coordinator",
+    "school operations partner",
+    "community witness"
+  ],
+  "evaluationGoals": [
+    "verify workshops happened",
+    "estimate delivery count",
+    "surface discrepancies worth follow-up"
+  ]
+}
